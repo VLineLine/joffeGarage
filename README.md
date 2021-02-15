@@ -14,9 +14,14 @@ In addition to the 3D printed parts, you need:
 - Wires
 
 ## Arduino wiring
-| Pin nr | Encoder |
-|--------|---------|
-| 3      | A       |
-| 4      | B       |
-| 5      | GND     |
-| 6      | BTN     |
+| Pin nr | Stepper driver | Ultrasonic sensor |
+|--------|----------------|-------------------|
+| 3      | AIN2           |                   |
+| 4      | AIN1           |                   |
+| 5      | STBY           |                   |
+| 6      | BIN2           |                   |
+| 7      | BIN1           |                   |
+| 8      |                | VCC               |
+| 9      |                | TRIG              |
+| 10     |                | ECHO              |
+| 11     |                | GND               |
